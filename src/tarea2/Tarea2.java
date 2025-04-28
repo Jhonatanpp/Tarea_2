@@ -17,4 +17,7 @@ public class Tarea2 {
         // TODO code application logic here
     }
     //Bienvenidos a la tarea 2
+    
+    
 }
+
