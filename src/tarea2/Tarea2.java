@@ -4,20 +4,39 @@
  */
 package tarea2;
 
+import java.util.Scanner;
+
 /**
  *
- * @author jhpcp
+ * @author jhonatan Pedraza
  */
 public class Tarea2 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
     //Bienvenidos a la tarea 2
     
+    //Jhonatan//
+    // Conversión de datos primitivos a objetos 
+    
+    //Inicio De La Encuesta 
+    //1)Nombre
+    //2)Edad
+    //3)
+    
+    
+    // Ejemplo de conversión de tipos primitivos a objetos en Java usando una encuesta.
+    public static void main(String[] args) {
+         Scanner scanner = new Scanner(System.in);
+
+        // Solicitar datos al usuario
+        System.out.print("Introduce tu nombre: ");
+        String nombre = scanner.nextLine();
+
+        System.out.print("Introduce tu edad: ");
+        int edadPrimitivo = scanner.nextInt();
+        Integer edadObjeto = Integer.valueOf(edadPrimitivo); // Conversión de primitivo a objeto
+    //Jhonatan//
+    
+    //Compas pongan otras clases aqui abajo otros datos
+    }
     
 }
 
